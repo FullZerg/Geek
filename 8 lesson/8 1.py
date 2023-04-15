@@ -32,6 +32,7 @@ class Data:
         return f'Текущая дата {Data.extract(self.day_month_year)}'
 
 
+
 today = Data('10 - 04 - 2023')
 print(today)
 print(Data.valid(10, 13, 2023))
